@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif ;
+}
+body {
+    padding: 50px;
 }
 
 
@@ -20,7 +24,7 @@ h1 {
 }
 
 li{
-    margin: 10px;
+    margin: 10px 0;
     border: 2px ;
     padding: 10px ;
     background-color: lightgray;
@@ -28,7 +32,25 @@ li{
     justify-content: center;
 }
 
+img {
+    width: 100%;
+}
 
+h2 {
+  padding: 10px;
+}
 
+.main p {
+    padding: 10px;
+}
+.sub-section p {
+    padding: 10px;
 
-@media screen and (min-width:576px)
+}
+
+@media screen and (min-width: 320px ) {
+    body {
+        flex-direction: row;
+    }
+}
+
