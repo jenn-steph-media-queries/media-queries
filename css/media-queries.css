@@ -48,9 +48,25 @@ h2 {
 
 }
 
-@media screen and (min-width: 320px ) {
-    body {
-        flex-direction: row;
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .alert-info {
+        display: none;
+    }
+    li {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: transparent;
+
     }
 }
+
 
