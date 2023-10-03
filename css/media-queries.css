@@ -59,14 +59,31 @@ h2 {
         display: none;
     }
     li {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        /*display: flex;*/
+        /*align-content: flex-end;*/
+        /*justify-content: space-around;*/
         background-color: transparent;
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: -40px;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        /*margin-left: 50px;*/
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .sub-section {
+        display: flex;
+        justify-content: center;
+        align-content: space-evenly;
+        flex-direction: column;
 
     }
 }
+
 
 
